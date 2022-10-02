@@ -10,8 +10,12 @@
 
 // double GetMult(int one, int two)
 // {
-//     double multi = Math.Pow(one, two);
-//     return multi;
+//     int res = 1;
+//     for(int i = 0; i < two; i++)
+//     {
+//        res = res*one;
+//     }
+//     return res;
 // }
 
 //Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
@@ -63,15 +67,15 @@
 
 //Задача 29: Напишите программу, которая задаёт массив из 8 рандомных элементов и выводит их на экран.
 
-int[] array = GetRandomArray(8);
-Console.WriteLine($"[{String.Join(", ", array)}]");
+// int[] array = GetRandomArray(8);
+// Console.WriteLine($"[{String.Join(", ", array)}]");
 
-int[] GetRandomArray(int size)
-{
-    int[] result = new int[size];
-   for(int i = 0; i < size; i++)
-   {
-    result[i] = new Random().Next(0,100);
-   }
-   return result;
-}
+// int[] GetRandomArray(int size)
+// {
+//     int[] result = new int[size];
+//    for(int i = 0; i < size; i++)
+//    {
+//     result[i] = new Random().Next(0,100);
+//    }
+//    return result;
+// }
