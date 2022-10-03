@@ -32,10 +32,42 @@
 //Задача 36: Задайте одномерный массив, заполненный случайными числами. 
 //Найдите сумму элементов, стоящих на нечётных позициях.
 
-int[] array2 = GetArray(10, -100, 100);
-Console.WriteLine($"[{String.Join(", ", array2)}]");
-Console.WriteLine($"Сумма чисел на нечётных позициях в массиве = {GetSum(array2)}");
+// int[] array2 = GetArray(10, -100, 100);
+// Console.WriteLine($"[{String.Join(", ", array2)}]");
+// Console.WriteLine($"Сумма чисел на нечётных позициях в массиве = {GetSum(array2)}");
 
+
+// int[] GetArray(int size, int minValue, int maxValue)
+// {
+//     int[] arr = new int[size];
+//     for(int i = 0; i < size; i++)
+//     {
+//        arr[i] = new Random().Next(minValue, maxValue);
+//     }
+//     return arr;
+// }
+
+// int GetSum(int[] arr)
+// {
+//     int sum = 0;
+//     for(int j = 0; j < arr.Length; j++)
+//     {
+//         if(j%2 != 0)
+//         {
+//             sum += arr[j];
+//         }
+//     }
+//     return sum;
+// }
+
+
+//Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
+int[] array3 = GetArray(15, 1, 42);
+Console.WriteLine($"[{String.Join(", ", array3)}]");
+Console.WriteLine(GetMin(array3));
+Console.WriteLine(GetMax(array3));
+Console.WriteLine($"Разница между максимальным и минимальниым элементом массива = {GetMax(array3) - GetMin(array3)}");
 
 int[] GetArray(int size, int minValue, int maxValue)
 {
@@ -47,15 +79,29 @@ int[] GetArray(int size, int minValue, int maxValue)
     return arr;
 }
 
-int GetSum(int[] arr)
+int GetMin(int[] arr)
 {
-    int sum = 0;
-    for(int j = 0; j < arr.Length; j++)
+    int min = arr[0];
+    for(int i = 0; i < arr.Length; i++)
     {
-        if(j%2 != 0)
+        
+        if(min > arr[i])
         {
-            sum += arr[j];
+            min = arr[i];
         }
     }
-    return sum;
+    return min;
+}
+
+int GetMax(int[] arr)
+{
+    int max = arr[0];
+    for(int i = 0; i < arr.Length; i++)
+    {
+        if(max < arr[i])
+        {
+            max = arr[i];
+        }
+    }
+    return max;
 }
