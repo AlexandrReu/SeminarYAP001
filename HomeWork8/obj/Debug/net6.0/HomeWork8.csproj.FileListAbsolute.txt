@@ -1,0 +1,15 @@
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\bin\Debug\net6.0\HomeWork8.exe
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\bin\Debug\net6.0\HomeWork8.deps.json
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\bin\Debug\net6.0\HomeWork8.runtimeconfig.json
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\bin\Debug\net6.0\HomeWork8.dll
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\bin\Debug\net6.0\HomeWork8.pdb
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.csproj.AssemblyReference.cache
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.AssemblyInfoInputs.cache
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.AssemblyInfo.cs
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.csproj.CoreCompileInputs.cache
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.dll
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\refint\HomeWork8.dll
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.pdb
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\HomeWork8.genruntimeconfig.cache
+C:\Users\С энд Л\Desktop\geekbrains\SeminarYAP001\HomeWork8\obj\Debug\net6.0\ref\HomeWork8.dll
